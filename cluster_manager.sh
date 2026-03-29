@@ -53,3 +53,5 @@ while true; do
         *) echo -e "${RED}Invalid option, try again.${NC}" ;;
     esac
 done
+
+#cluster manager and kind-cluster-config.yaml both are dependent to each other 
