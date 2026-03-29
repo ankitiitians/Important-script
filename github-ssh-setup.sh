@@ -2,6 +2,8 @@
 # =============================================================================
 #  github-ssh-setup.sh
 #  Full GitHub SSH Setup Script — works on any fresh Linux/macOS server
+#  Author:  Ankit Srivastav
+#  LinkedIn: https://www.linkedin.com/in/ankitsrivas/
 #  Usage: bash github-ssh-setup.sh [--token YOUR_GITHUB_PAT] [--email you@example.com]
 # =============================================================================
 
@@ -363,4 +365,6 @@ echo ""
 cat "${KEY_FILE}.pub"
 echo ""
 echo -e "  ${CYAN}Add it at: https://github.com/settings/ssh/new${RESET}"
+echo ""
+echo -e "${BOLD}Author:${RESET} Ankit Srivastav  |  ${CYAN}https://www.linkedin.com/in/ankitsrivas/${RESET}"
 echo ""
